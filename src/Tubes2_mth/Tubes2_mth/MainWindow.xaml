@@ -1,0 +1,16 @@
+﻿<Window x:Class="Tubes2_mth.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tubes2_mth"
+        mc:Ignorable="d"
+        Title="Tubes2_mth" Height="450" Width="600">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="Wrap" Text="Treasure Hunt Solver" VerticalAlignment="Top"/>
+        <RadioButton x:Name="BfsButton" Content="BFS" IsChecked="True" HorizontalAlignment="Left" Margin="104,144,0,0" VerticalAlignment="Top" Checked="BfsButton_Checked"/>
+        <RadioButton x:Name="DfsButton" Content="DFS" HorizontalAlignment="Left" Margin="104,203,0,0" VerticalAlignment="Top" Checked="DfsButton_Checked"/>
+        <Button x:Name="VisualizeButton" Content="Visualize" HorizontalAlignment="Left" Margin="104,310,0,0" VerticalAlignment="Top" Click="VisualizeButton_Click"/>
+
+    </Grid>
+</Window>
